@@ -1,0 +1,104 @@
+.todo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo__container {
+    display: flex;
+    height: 80vh;
+    padding: 20px;
+    border: 1px solid gray;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+  }
+
+  .todo__heading{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+  }
+  
+  .todo__head > form {
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+  }
+
+  .todo__head > form > input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline-color: orange;
+    font-size: 15px;
+    padding-left: 10px;
+  }
+
+  .todo__head > form > button{
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 0 5px;
+    background-color: #06FF00;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+
+  .todo__result{
+    list-style: none;
+    overflow: scroll;
+    margin-top: 10px;
+    overflow-x: hidden;
+  }
+
+  .todo__result::-webkit-scrollbar{
+    overflow: hidden;
+  }
+
+
+  .todo__result > .todo__list{
+      background-color: #5dadf8;
+      border-radius: 50px;
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+      width: 450px;
+      padding: 8px 20px;
+      color: white;
+  }
+
+  .todo__text {
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+  }
+
+  .todo__result > .todo__list > li > button{
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 0 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+
+  .todo__edit{
+    background-color: #5800FF;
+    color: white;
+  }
+
+  .todo__delete{
+    background-color: #DA1212;
+    color: white;
+  }
+
+  .todo__empty {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }

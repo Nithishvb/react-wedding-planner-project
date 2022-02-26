@@ -1,0 +1,41 @@
+.pie__chart{
+    height: 200px;
+    width: 200px;
+}
+
+/* .planner__chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+} */
+
+.planner > h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.planner__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.planner__create {
+    margin-top: 30px;
+}
+
+.planner__create > button{
+    padding: 10px 15px;
+    color: white;
+    background-color: purple;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+}
